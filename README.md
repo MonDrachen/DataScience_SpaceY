@@ -1,16 +1,32 @@
-Executive Summary
+# Project Title: Predictive Analysis of SpaceX Rocket Launch Success
 
-•	Summary of Methodologies
-The whole project was based on the use of Python libraries to perform the different stages of the Data Science Project. Thus, Python was used from the data collection with requests and BeautifulSoup and data wrangling with Pandas, all the way to ML models with scikit-learn and dashboards with Plotly Dash, showing how powerful it is as Data Science tool.
+> Description:
+This project analyzes the success rates of SpaceX's rocket launches using data science techniques. With reusable rocket technology revolutionizing the space industry, the analysis aimed to uncover key factors influencing successful landings. The project leveraged Python for data collection, preprocessing, visualization, and machine learning to derive insights and predictions.
 
-•	Summary of all Results
-The final results were based on the creation of ML models through which we can evaluate their accuracy to predict if the landing of a launch will be successful or not. To do this task, we pass through the stages of EDA and data visualization in order to get a clearer understanding of the relationships between features and the expected outcome, so we can transmit these insights to our ML models.  
-Introduction
+## Key Highlights:
 
-Introduction
+* Data Collection:
+Data was sourced from the SpaceX API and Wikipedia pages using Python libraries (requests and BeautifulSoup).
+Cleaned and formatted data into structured Pandas DataFrames for analysis.
 
-•	Project Background
-Commercial space voyages have become a reality, so the race between companies to domain the market is at its peak. Among the many competitors like Virgin Galactic, Rocket Lab, Blue Origin, etc.; it seems that the one that has positioned itself best is SpaceX. With their Falcon 9 rocket, SpaceX, has achieved to create reusable first stages, which allows them to lower the cost of their launches to 62 million dollars, compared to the 165 million of other companies. 
+* Data Wrangling and Feature Engineering:
+Used Pandas to handle missing values and generate new features, such as a binary "Class" column to represent landing success (0 = failure, 1 = success).
 
-•	Problematic
-As part of the new rocket company SpaceY, we would like to analyze the success that SpaceX has achieved. Therefore, we will analyze the different factors of a rocket launch (location, booster version, payload mass, orbit, etc.), to determine which are the most influential in a successful outcome, so that the first stage can be reused. 
+* Exploratory Data Analysis (EDA):
+Employed SQL and Python libraries like matplotlib and seaborn to explore relationships between features such as launch site, payload mass, orbit type, and success rates.
+  * Launch site and orbit type were significant predictors of success.
+  * Payload mass played a critical role, with heavier payloads more likely to succeed under specific conditions.
+  * The most successful launches were associated with the KSC LC-39A launch site.
+
+* Machine Learning Models:
+Built and evaluated predictive models using scikit-learn, including: Logistic Regression, Support Vector Machines, Decision Trees and K-Nearest Neighbors, while conducting hyperparameter tuning with Grid Search to optimize model performance.
+
+* Visualization and Dashboards:
+Developed an interactive dashboard using Plotly Dash to allow users to filter data by launch site, visualize success rates, and explore payload and orbit relationships.
+
+## Results:
+Logistic Regression, SVM, and Decision Trees showed similar performance with high accuracy in predicting successful landings.
+Interactive tools and visualizations provided actionable insights into launch characteristics and trends.
+
+## Technologies Used:
+Python, Pandas, Matplotlib, Seaborn, SQL (sqlite3), Folium, Plotly Dash, scikit-learn
