@@ -1,4 +1,4 @@
-# Project Title: Predictive Analysis of SpaceX Rocket Launch Success
+# Project Title: Predictive Analysis of SpaceY Rocket Launch Success
 
 > Description:
 This project analyzes the success rates of SpaceX's rocket launches using data science techniques. With reusable rocket technology revolutionizing the space industry, the analysis aimed to uncover key factors influencing successful landings. The project leveraged Python for data collection, preprocessing, visualization, and machine learning to derive insights and predictions.
